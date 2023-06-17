@@ -22,7 +22,7 @@
           <span class="text-2xl font-bold text-indigo-900">Portwind.</span>
         </div>
         <ul class="hidden md:flex space-x-10 text-gray-600 font-bold text-sm uppercase">
-          <li class="hover:text-gray-500">
+          <li>
             <a href="#">homepage</a>
           </li>
           <li class="hover:text-gray-500">
@@ -39,11 +39,35 @@
           </li>
         </ul>
         <img src="./img/moon.png" class="hidden md:block w-5 cursor-pointer" alt="">
+        <div id="humberger" class="space-y-1 md:hidden cursor-pointer z-20">
+          <div class="w-6 h-0.5 bg-black"></div>
+          <div class="w-6 h-0.5 bg-black"></div>
+          <div class="w-6 h-0.5 bg-black"></div>
+        </div>
+        <ul id="menu"
+          class="hidden bg-indigo-900 absolute top-0 left-0 w-full p-10 rounded-b-3xl space-y-10 text-white text-center">
+          <li>
+            <a href="#">homepage</a>
+          </li>
+          <li>
+            <a href="#">about me</a>
+          </li>
+          <li>
+            <a href="#">services</a>
+          </li>
+          <li>
+            <a href="#">works</a>
+          </li>
+          <li>
+            <a href="#">contact</a>
+          </li>
+        </ul>
       </div>
     </nav>
     <!-- intro content -->
     <div></div>
   </div>
+  <script src="./app.js"></script>
 </body>
 
 </html>
